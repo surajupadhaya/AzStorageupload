@@ -11,6 +11,6 @@ az storage blob list --container-name <nameofconatainer> --account-name <nameofa
 
 #using the blob names you can use here to download 
 
-az storage blob download --blob-url https://<accountname>.blob.core.windows.net/<containername>/<filenametobetakenfromabovecommand> --file <downloadfilename>
+az storage blob download --blob-url https://<accountname>.blob.core.windows.net/<containername>/<filename> --file <downloadfilename>
 
 
