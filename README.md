@@ -7,10 +7,10 @@ Once its uploaded , if now we want to download it we can use Az shell commands .
 
 #This will get us the lists of Blob stored
 
-az storage blob list --container-name <nameofconatainer> --account-name <nameofaccount> --query "[].{name:name}"
+az storage blob list --container-name nameofconatainer --account-name nameofaccount --query "[].{name:name}"
 
 #using the blob names you can use here to download 
 
-az storage blob download --blob-url https://<accountname>.blob.core.windows.net/<containername>/<filename> --file <downloadfilename>
+az storage blob download --blob-url https://accountname.blob.core.windows.net/containername/filename --file downloadfilename
 
 
